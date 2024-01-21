@@ -1,0 +1,74 @@
+
+.Título{
+
+margin-top: 50px;
+margin-bottom: 50px;
+margin-left: 175px;
+margin-right: 175px;
+color: green;
+border: solid black;
+padding-left: 150px ;
+
+}
+
+.Títulos{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Subtitle{
+
+    color: green;
+    margin-left: 10px;
+}
+
+.Subtitle02{
+
+    color: green;
+    margin-left: 10px;
+}
+
+
+button :hover{
+
+    color: blue
+}
+
+h2{
+
+margin-left: 10px;
+padding-bottom: 20px;
+padding-top:20px;
+
+}
+
+
+    .Imagem1{
+
+        float: right;
+        margin-bottom: 15px;
+    }
+
+    .imagem2{
+
+        float: left;
+        margin-bottom: 15px;
+    }
+
+    .Titulozao{
+
+        margin-left: 40%;
+        color: green;
+    }
+
+    body{
+
+        background-color: paleturquoise
+    }
+
+    margin{
+
+        width: 700px;
+    }

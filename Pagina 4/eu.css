@@ -1,0 +1,30 @@
+.Título{
+
+    max-width: 80%;
+    text-align: center;
+    margin: 5px auto;
+    background-color: burlywood;
+}
+
+.Conteúdo{
+
+  max-width: 80vw;
+  margin:10px auto;
+  
+    
+    
+    }
+    
+.Filme{
+
+
+height: 150px;
+width: 20vw;
+background-color: burlywood;
+margin: 1vw 3.3vw;
+float: left;
+text-align: center;
+text-decoration-color: white;
+
+
+}

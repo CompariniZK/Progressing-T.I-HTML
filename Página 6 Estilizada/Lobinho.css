@@ -1,0 +1,173 @@
+body{
+
+    margin: 0% 0%;
+}
+.Cabeçalho{
+
+
+background-color: burlywood;
+margin: 0vw 0vw;
+
+
+
+
+}
+
+.Camada1{
+
+    height: 10.0vw;
+    background-color:burlywood;
+    text-align: center;
+    line-height: 10.0vw;
+   
+    
+    
+}
+
+.inputzada{
+
+   
+    vertical-align: middle;
+
+
+}
+
+#cornoCabeçalho{
+
+    height: 3vw;
+    width: 25vw;
+    padding-left: 2.5vw ;
+    
+}
+
+.Camada2{
+
+    border-top: solid black;
+    border-bottom: solid black;
+    height: 6vw;
+    text-align: center;
+    line-height: 6vw;
+    
+       
+    
+}
+
+.Options1{
+
+    
+    vertical-align: middle;
+    font-size: 1.2rem;
+    
+
+}
+
+.Options2{
+
+    margin-left: 5vw;
+    vertical-align: middle;
+    font-size: 1.2rem;
+     
+}
+
+.Options3{
+    height: 4vw;
+    margin-left: 5vw;
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+
+.Options4{
+
+    margin-left: 5vw ;    
+    margin-bottom: 4.7;
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+
+.content{
+
+    text-align: center;
+    height: 1400px;
+    background-color: beige;
+    
+}
+.Conteúdo{
+
+
+text-align: center;
+height: 300px;
+line-height: 300px;
+display: inline-block;
+vertical-align: middle;
+
+
+}
+
+.Beneficio1{
+
+    
+    border: solid black;
+    vertical-align: middle;
+    float: left;
+    margin-top: 3vw;
+
+
+
+}
+
+.Beneficio2{
+
+
+   
+    
+    border: solid black;
+    vertical-align: middle;
+    float: left;
+    margin-top: 3vw;
+
+
+
+
+
+
+ 
+  
+
+    
+
+}
+
+.Beneficio3{
+
+
+    
+    
+    border: solid black;
+    vertical-align: middle;
+    float: left;
+    margin-top: 3vw;
+
+
+
+ 
+
+
+
+}
+.Beneficio4{
+
+    
+    border: solid black;
+    vertical-align: middle;
+    float: left;
+    margin-top: 3vw;
+
+
+
+
+  
+
+
+ 
+
+}

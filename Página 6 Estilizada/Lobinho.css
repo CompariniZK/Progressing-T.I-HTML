@@ -94,11 +94,13 @@ margin: 0vw 0vw;
 .Conteúdo{
 
 
-text-align: center;
-height: 300px;
-line-height: 300px;
+
+height: 219px;
+line-height: 100px;
 display: inline-block;
 vertical-align: middle;
+background-color: white;
+margin-top: 3vh;
 
 
 }
@@ -106,10 +108,15 @@ vertical-align: middle;
 .Beneficio1{
 
     
-    border: solid black;
-    vertical-align: middle;
+    border-right: solid;
     float: left;
-    margin-top: 3vw;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    height:200px;
+    vertical-align: middle;
+    padding-top: 3vh;
+    
+
 
 
 
@@ -118,34 +125,29 @@ vertical-align: middle;
 .Beneficio2{
 
 
-   
+   margin-left: 3vw ;
     
-    border: solid black;
     vertical-align: middle;
-    float: left;
-    margin-top: 3vw;
-
-
-
-
-
-
- 
-  
-
+   float: left;
+    margin-top: 3vh;
     
+
 
 }
+
+
+    
+
 
 .Beneficio3{
 
 
     
-    
-    border: solid black;
+    margin-left: 3vw ;
+
     vertical-align: middle;
     float: left;
-    margin-top: 3vw;
+    margin-top: 3vh;
 
 
 
@@ -157,17 +159,31 @@ vertical-align: middle;
 .Beneficio4{
 
     
-    border: solid black;
     vertical-align: middle;
     float: left;
-    margin-top: 3vw;
+    margin-top: 3vh;
+    margin-left: 3vw ;
+    margin-right: 1.5vw;
 
 
+}
 
+.subtittle{
 
+        margin: 0vh 0vw;
+        padding: 0vh 0vw;
+
+}
   
+.Título{
 
+margin:0vh 0vw;
+padding: 0vh 0vw;
+height: 5vw;
+
+
+}
 
  
 
-}
+

@@ -223,8 +223,39 @@ height: 5vw;
     background-color: white;
     display: inline-block;
     
+    
 
  }
 
+.Produto{
+
+height: 320px;
+width: 20%;
+background-color: brown;
+float: left;
+
+margin-left: 5.26vw
+
+ }
+
+ .Produto1{
+
+height: 320px;
+width: 20%;
+background-color: brown;
+float: left;
 
 
+ }
+
+ .Produto4{
+
+    height: 320px;
+    width: 20%;
+    background-color: brown;
+    float: left;
+    margin-left: 5.26vw;
+    
+
+
+ }

@@ -97,12 +97,14 @@ margin: 0vw 0vw;
 
 
 
-height: 129px;
+height: 150px;
 display: inline-block;
-vertical-align: middle;
 background-color: white;
 margin-top: 5vh;
-border: solid orange;
+border-radius: 1vw;
+width: 70vw;
+border-left: solid blue;
+border-right: solid blue;
 
 
 }
@@ -110,14 +112,15 @@ border: solid orange;
 .Beneficio1{
 
     
-    border-right: solid;
+   
     float: left;
-    padding-right: 1.5vw;
-    padding-left: 1.5vw;
-    height:110px;
+    height:150px;
     vertical-align: middle;
-    padding-top: 3vh;
-    
+    width: 10vw;
+    margin-left:3.75vw;
+    margin-right:3.75vw;
+    text-align: left;
+
 
 
 
@@ -126,12 +129,12 @@ border: solid orange;
 
 .Beneficio2{
 
-
-   margin-left: 3vw ;
-    
-    vertical-align: middle;
-   float: left;
-    margin-top: 3vh;
+    float: left;
+    height:150px;
+    width: 10vw;
+    margin-left:3.75vw;
+    margin-right:3.75vw;
+    text-align: left;
     
 
 
@@ -141,11 +144,12 @@ border: solid orange;
 
 
     
-    margin-left: 3vw ;
-
-    vertical-align: middle;
     float: left;
-    margin-top: 3vh;
+    height:150px;
+    width: 10vw;
+    margin-left:3.75vw;
+    margin-right:3.75vw;
+    text-align: left;
 
 
 
@@ -157,29 +161,29 @@ border: solid orange;
 .Beneficio4{
 
     
-    vertical-align: middle;
     float: left;
-    margin-top: 3vh;
-    margin-left: 3vw ;
-    margin-right: 1.5vw;
+    height:150px;
+    width: 10vw;
+    margin-left:3.75vw;
+    margin-right:3.75vw;
+    text-align: left;
+
 
 
 }
 
 .subtittle{
-
-        margin: 0vh 0vw;
-        padding: 0vh 0vw;
+float: left;
+margin-top: 7px;
+margin-bottom: 0px;
 
 }
   
 .Título{
 
-margin:0vh 0vw;
-padding: 0vh 0vw;
-height: 5vw;
-
-
+float: left;
+margin-top: 16px;
+margin-bottom: 0px;
 }
 
  .Options1:hover{
@@ -218,12 +222,14 @@ height: 5vw;
  .Produtos{
 
     margin-top: 11vh;
-    height: 120px;
+    height: 165px;
     width: 90%;
     background-color: white;
     display: inline-block;
-    border: solid orange;
+    border-left: solid blue;
+    border-right: solid blue;
     text-align: center;
+    border-radius: 1vw;
     
     
 
@@ -235,8 +241,9 @@ height: 120px;
 width: 22.5%;
 display: inline-block;
 overflow: hidden;
-border-left: solid orange;
 text-align: center;
+margin-top: 15px;
+
 
 
 
@@ -248,6 +255,7 @@ height: 120px;
 width: 22.5%;
 display: inline-block;
 overflow: hidden;
+margin-top: 15px;
 
 
  }
@@ -258,7 +266,7 @@ overflow: hidden;
     width: 22.5%;
     display: inline-block;
     overflow: hidden;
-    border-left: solid orange;
+    margin-top: 15px;
     
 
 
@@ -293,7 +301,7 @@ overflow: hidden;
  }
 
 
- 
+
 
  
 

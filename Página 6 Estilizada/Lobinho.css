@@ -37,17 +37,55 @@ text-align:center;
 
 .Entrar{
 
+    height:3vh;
+    width:auto;
     float:right;
-    margin-right: 4vw;
+    margin-top: 5vh;
+    margin-right: 2vw;
+    padding: 2vh 2vw;
+    line-height: 3vh;
+    vertical-align: middle;
+    border-radius: 1vw;
+    text-decoration: none;
+    font-style: normal;  
+    color:black;
+
     
 
 }
 
 .Registrar{
 
-    float: right;
-    margin-right: 4vw
+    height:3vh;
+    width:auto;
+    float:right;
+    margin-top: 5vh;
+    margin-right: 2vw;
+    line-height: 3vh;
+    vertical-align: middle;
+    padding:2vh 2vw;
+    border-radius: 1vw;
+    text-decoration: none;
+    font-style: normal;  
+    color: black;
+
 }
+
+.Entrar:hover{
+
+    transition-duration: 1s;
+    background-color: aquamarine;
+}
+
+.Registrar:hover{
+
+    transition-duration: 1s;
+    background-color: aquamarine;
+}
+
+
+
+         
 
 #cornoCabeçalho{
 

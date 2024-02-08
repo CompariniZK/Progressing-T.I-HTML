@@ -1,0 +1,188 @@
+body{
+
+    margin: 0% 0%;
+}
+.Cabeçalho{
+
+
+background-color: burlywood;
+margin: 0vw 0vw;
+text-align:center;
+
+
+
+
+}
+
+.Camada1{
+
+    height: 10.0vw;
+    background-color:burlywood;
+    text-align: center;
+    line-height: 10.0vw;
+   
+    
+    
+}
+
+.inputzada{
+
+   
+    vertical-align: middle;
+    
+    
+
+
+}
+
+.Entrar{
+
+    height:3vh;
+    width:auto;
+    float:right;
+    margin-top: 7vh;
+    margin-right: 2vw;
+    padding: 2vh 2vw;
+    line-height: 3vh;
+    vertical-align: middle;
+    border-radius: 1vw;
+    text-decoration: none;
+    font-style: normal;  
+    color:black;
+
+    
+
+}
+
+.Registrar{
+
+    height:3vh;
+    width:auto;
+    float:right;
+    margin-top: 7vh;
+    margin-right: 2vw;
+    line-height: 3vh;
+    vertical-align: middle;
+    padding:2vh 2vw;
+    border-radius: 1vw;
+    text-decoration: none;
+    font-style: normal;  
+    color: black;
+
+}
+
+.Entrar:hover{
+
+    transition-duration: 1s;
+    background-color: aquamarine;
+}
+
+.Registrar:hover{
+
+    transition-duration: 1s;
+    background-color: aquamarine;
+}
+
+
+
+         
+
+#cornoCabeçalho{
+
+    height: 6vh;
+    width: 25vw;
+    padding-left: 2.5vw ;
+    padding-right: 2.5vw;
+    margin-left: 18vw;
+}
+
+.Camada2{
+
+    border-top: solid black;
+    border-bottom: solid black;
+    height: 6vw;
+    text-align: center;
+    line-height: 6vw;
+    
+       
+    
+}
+
+.Login{
+
+    float:right;
+    height: 2vh
+}
+
+.Camada2 a{
+
+    text-decoration: none;
+    font-style: normal;
+    color:black
+}
+
+.Options1{
+
+    
+    vertical-align: middle;
+    font-size: 1.2rem;
+    
+    
+
+}
+
+.Options2{
+
+    margin-left: 5vw;
+    vertical-align: middle;
+    font-size: 1.2rem;
+     
+}
+
+.Options3{
+    height: 4vw;
+    margin-left: 5vw;
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+
+.Options4{
+
+    margin-left: 5vw ;    
+    margin-bottom: 4.7;
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+
+.Options1:hover{
+
+    transition-duration: 0.6s;
+    padding: 4vh 4vw;
+    background-color: brown;
+    transition-property: padding;
+ }
+
+ .Options2:hover{
+
+    transition-duration: 0.6s;
+    padding:4vh 4vw;
+    background-color: brown;
+    transition-property:padding;
+
+ }
+
+ .Options4:hover{
+
+    transition-duration: 0.6s;
+    background-color: brown;
+    padding:4vh 4vw;
+    transition-property: padding;
+ }
+
+ .Options3:hover{
+
+    transition-duration:0.6s;
+    padding:4vh 4vw;
+    background-color: brown;
+    transition-property: padding;
+ }

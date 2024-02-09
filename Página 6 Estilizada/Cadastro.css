@@ -186,3 +186,74 @@ text-align:center;
     background-color: brown;
     transition-property: padding;
  }
+
+
+
+ .content{
+
+
+    height: 80vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10vh;
+    width: 90%;
+    text-align: center;
+    display: inline-block;
+
+ }
+
+
+ .Cadastro{
+
+    height: 65vh;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+    line-height: 65vh;
+    
+    
+    
+    
+
+ }
+
+
+ .Nomes{
+    height: 7vh;
+margin-top: 5vh;
+margin-bottom: 5vh;
+
+float: left;
+
+ }
+
+ .Emailzada{
+    height: 7vh;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+   
+    float: left;
+ }
+
+ .Sexozada{
+    height: 7vh;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+    
+    float: left
+ }
+
+ .Senhazada{
+    height: 7vh;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+    
+    float: left
+ }
+
+ .Confirmar{
+
+    height: 7vh;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+    float: left;
+ }

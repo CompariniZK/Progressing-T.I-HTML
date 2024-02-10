@@ -186,3 +186,43 @@ text-align:center;
     background-color: brown;
     transition-property: padding;
  }
+
+ .content{
+
+    height: 75vh;
+    width: 100%;
+    background-color: darkkhaki;
+    text-align: center;
+    display: inline-block;
+    
+    
+    
+ }
+
+ .Loginz{
+    
+
+    height:40vh;
+    width:50vw;
+    vertical-align: middle;
+    border: solid black;
+    display: inline-block;
+    
+    border-radius: 2.5vh;
+    background-color:burlywood;
+    line-height: 20vh;
+    
+    
+}
+
+.título{
+
+    margin-top: 7vh;
+    margin-bottom: 3.5vh;
+}
+
+.logado{
+
+   vertical-align: middle;
+ 
+}

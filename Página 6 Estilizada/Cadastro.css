@@ -201,15 +201,22 @@ text-align:center;
     display: inline-block;
 
  }
+.content h1{
 
+    font-size: 2rem;
+    margin-top: 2.5vh ;
+    margin-bottom: 3vh;
+}
 
  .Cadastro{
 
     height: 65vh;
-    margin-top: 8vh;
+    margin-top: 5vh;
     margin-bottom: 5vh;
     line-height: 65vh;
-    
+    width: 70%;
+    display: inline-block;
+    border: solid black;
     
     
     
@@ -218,42 +225,59 @@ text-align:center;
 
 
  .Nomes{
-    height: 7vh;
-margin-top: 5vh;
-margin-bottom: 5vh;
 
+height: 7vh;
+margin-top: 9vh;
+margin-bottom: 5vh;
+margin-right: 2.5vw;
+margin-left: 6vw;
+line-height: 7vh;
+vertical-align: middle;
 float: left;
 
  }
 
  .Emailzada{
     height: 7vh;
-    margin-top: 7vh;
+    margin-top: 9vh;
     margin-bottom: 5vh;
-   
-    float: left;
+    line-height: 7vh;
+    margin-right: 6vw;
+
+    vertical-align: middle;
+    float: right;
  }
 
  .Sexozada{
     height: 7vh;
-    margin-top: 7vh;
+    margin-top: 9vh;
     margin-bottom: 5vh;
-    
+    line-height: 7vh;
+    margin-right: 2.5vw;
+    margin-left: 6vw;;
+    vertical-align: middle;
     float: left
  }
 
  .Senhazada{
     height: 7vh;
-    margin-top: 7vh;
+    margin-top: 9vh;
     margin-bottom: 5vh;
-    
-    float: left
+    line-height: 7vh;
+    margin-right: 6vw;
+    margin-left: 2vw;
+    vertical-align: middle;
+    float: right
  }
 
  .Confirmar{
 
     height: 7vh;
-    margin-top: 7vh;
+    margin-top: 9vh;
     margin-bottom: 10vh;
+    margin-right: 2.5vw;
+    margin-left: 6vw;
+    line-height: 7vh;
+    vertical-align: middle;
     float: left;
  }

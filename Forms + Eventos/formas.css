@@ -9,6 +9,7 @@ body{
     width: 100%;
     background-color: blanchedalmond;
     text-align: center;
+   
     
 }
 
@@ -18,10 +19,21 @@ body{
 display: inline-block;
 height: 60vh;
 width:40vw;
-border: solid black;
+border-radius: 2vh;
+border:solid black;
 margin-top: 15vh;
 text-align: center;
 
+
+
+
+
+}
+
+.Forms:hover{
+
+    transition-duration: 0.6s;
+    padding:1%;
 
 }
 
@@ -50,5 +62,6 @@ margin-right: 2vw;
 
     margin-bottom: 1vh;
 }
+
 
 

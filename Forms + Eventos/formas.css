@@ -36,10 +36,14 @@ text-align: center;
     padding:1%;
 
 }
+.Título{
 
+    margin-top: 27px;
+    margin-bottom: 20px;
+}
 .InfLoja{
 
-margin-bottom: 12vh;
+margin-bottom: 6vh;
 margin-left: 2vw;
 margin-right: 2vw;
 
@@ -55,13 +59,37 @@ margin-right: 2vw;
 
 .caixa1{
 
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
 }
 
 .caixa2{
 
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
 }
 
+
+.Botao{
+
+    margin-top: 3vh;
+}
+
+
+input[type= "submit"]{
+
+    margin-top: 4vh;
+    height: 30px;
+    width: 70px;
+    border-radius: 2vh;
+
+
+}
+
+input[type= "submit"]:hover{
+
+    transition-duration: 0.5s;
+    height: 35px;
+    width: 75px;
+    background-color:darkgray;
+}
 
 

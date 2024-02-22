@@ -14,7 +14,7 @@ focus1.addEventListener('focus', Evento2);
 
 function Evento2(event){
 
-    this.style.backgroundColor = "plum"
+    this.style.outlineColor = "darkViolet"
     console.log("Beiçola");
     console.log(event);
 }
@@ -26,7 +26,7 @@ focus2.addEventListener('focus', Evento3);
 
 function Evento3 (event){
 
-        this.style.backgroundColor = "plum";
+        this.style.outlineColor = "darkViolet";
         console.log("Andressa Urach")
         console.log(event)
 
@@ -40,8 +40,10 @@ focus3.addEventListener('focus', Evento4);
 
 function Evento4(event){
 
-    this.style.backgroundColor = "plum";
+    this.style.outlineColor = "darkViolet";
     console.log("Belle Bellinha");
     console.log(event);
 
+
 }
+

@@ -10,8 +10,25 @@ function Realoaded(){
     const NomeSalvo = localStorage.getItem('NomeLoja')
 
 if(NomeSalvo != null){
+
     console.log("NomeRecuperado da loja foi: " + NomeSalvo)
-}
+
+        }
+
+    const EnderecoSalvo = localStorage.getItem('EndereçoLoja');
+
+        if(EnderecoSalvo != null){
+
+        console.log("Endereço recuperado da loja foi " + EnderecoSalvo )
+        }
+    
+    const HorariosSalvos = localStorage.getItem('HorariosAbreFecha');
+        if(HorariosSalvos != null){
+
+            console.log("Os horários de abertura e fechamento eram " + HorariosSalvos)
+        }
+    const EventoSalvo = localStorage.getItem('Evento')
+    console.log("Último Evento: " + EventoSalvo)
 }
 
 
@@ -23,13 +40,15 @@ function Evento(event){
     
 const nome = document.getElementById('name').value;
 localStorage.setItem('NomeLoja', nome);
-const nomeSalvo = localStorage.getItem('NomeLoja')
-    
 
-    if(nomeSalvo != null){
+const Endereco = document.getElementById('endereco').value;
+localStorage.setItem('EndereçoLoja', Endereco );
 
-        console.log(nomeSalvo);
-    }
+const Horarios = document.getElementById('horarios').value;
+localStorage.setItem('HorariosAbreFecha', Horarios);
+
+
+
 
 }
 
@@ -56,7 +75,6 @@ function Evento3 (event){
 
         this.style.outlineColor = "darkViolet";
         console.log("Andressa Urach")
-        console.log(event)
 
 
 }

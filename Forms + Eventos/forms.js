@@ -1,11 +1,26 @@
 const btn = document.getElementById('botao');
 
+
 btn.addEventListener('click', Evento)
+
+
 
 function Evento(event){
 
-    console.log("Paulo Kogos")
-    console.log(event)
+
+    console.log("Paulo Kogos está preparando o envio...")
+    event.preventDefault();
+
+    const nome = document.getElementById('name').value;
+    localStorage.setItem('NomeLoja', nome);
+
+    const nomeSalvo = localStorage.getItem('NomeLoja')
+
+    if(nomeSalvo){
+
+        console.log(nomeSalvo);
+    }
+
 }
 
 
@@ -46,4 +61,8 @@ function Evento4(event){
 
 
 }
+
+
+localStorage.setItem('NomeLoja', 'name')
+
 

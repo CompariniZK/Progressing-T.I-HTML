@@ -3,6 +3,8 @@ const btn = document.getElementById('botao');
 
 btn.addEventListener('click', Evento)
 
+
+
 document.addEventListener('DOMContentLoaded', Realoaded)
 
 function Realoaded(){
@@ -27,8 +29,46 @@ if(NomeSalvo != null){
 
             console.log("Os horários de abertura e fechamento eram " + HorariosSalvos)
         }
-    const EventoSalvo = localStorage.getItem('Evento')
-    console.log("Último Evento: " + EventoSalvo)
+    
+    const DiasSalvos = document.querySelectorAll('input[type="checkbox"]')
+
+    DiasSalvos.forEach(verificaDias);{
+
+           function verificaDias(checkbox){
+
+            const checkBoxID = 'estadoCheckBox_' + checkbox.id;
+            const checkBoxEstado = localStorage.getItem(checkBoxID);
+
+            if(checkBoxEstado == 'checked'){
+
+                checkbox.checked == true;
+            }
+            else{
+
+                checkbox.checked == false;
+            }
+
+            checkbox.addEventListener('change', observaCheca);
+
+
+            function observaCheca(){
+
+                if(checkbox.checked){
+
+                    localStorage.setItem(checkBoxID, 'checked')
+                }
+                else{
+
+                    localStorage.removeItem(checkBoxID);
+                }
+
+                console.log(checkBoxID);
+            }
+
+
+
+        }
+    }
 }
 
 
@@ -51,6 +91,21 @@ localStorage.setItem('HorariosAbreFecha', Horarios);
 
 
 }
+
+const checkBox1 = document.getElementById( 'semana1')
+
+const estadoInicial = localStorage.getItem('EstadoCheckBox')
+
+if(estadoInicial == 'checked'){
+
+     checkBox1.checked == true;
+}
+else
+{
+
+    checkBox1 == false
+}
+
 
 
 

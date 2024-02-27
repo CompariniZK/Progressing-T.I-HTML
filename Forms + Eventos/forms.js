@@ -32,45 +32,48 @@ if(NomeSalvo != null){
     
     const DiasSalvos = document.querySelectorAll('input[type="checkbox"]')
 
-    DiasSalvos.forEach(verificaDias);{
+    DiasSalvos.forEach(function verificaDias(checkbox){
 
-           function verificaDias(checkbox){
+        const checkBoxID = 'estadoCheckBox_' + checkbox.id;
+        const checkBoxEstado = localStorage.getItem(checkBoxID);
 
-            const checkBoxID = 'estadoCheckBox_' + checkbox.id;
-            const checkBoxEstado = localStorage.getItem(checkBoxID);
+        if(checkBoxEstado == 'checked'){
 
-            if(checkBoxEstado == 'checked'){
+            checkbox.checked == true;
+            console.log("Abrirá nos dias: " + checkBoxID)
+        }
+        else{
 
-                checkbox.checked == true;
+            checkbox.checked == false;
+        }
+
+        checkbox.addEventListener('change' , function confirma(){
+
+            if(checkbox.checked){
+
+                localStorage.setItem(checkBoxID, 'checked')
             }
             else{
 
-                checkbox.checked == false;
+                localStorage.removeItem(checkBoxID);
             }
 
-            checkbox.addEventListener('change', observaCheca);
-
-
-            function observaCheca(){
-
-                if(checkbox.checked){
-
-                    localStorage.setItem(checkBoxID, 'checked')
-                }
-                else{
-
-                    localStorage.removeItem(checkBoxID);
-                }
-
-                console.log(checkBoxID);
-            }
+            console.log("Abrirá nos dias: " + checkBoxID);
+        
 
 
 
-        }
-    }
+        });
+
+
+
+    })
 }
 
+
+
+    
+ 
 
 
 function Evento(event){

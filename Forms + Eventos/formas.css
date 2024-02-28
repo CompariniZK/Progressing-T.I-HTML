@@ -91,15 +91,79 @@ input[type= "submit"]:hover{
 }
 
 
-@media screen and (max-width:400px){
+@media screen and (min-width:850px){
 
 .Forms{
 
+width: 95% ;
 background-color:aqua
 
 
 }
+.InfLoja{
+
+    width: 800px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    display: inline-block;
+}
+.caixa1{
+
+display: inline-block;
+
+}
+
+.caixa3{
+
+    display: inline-block;
+    
+    }
+
+    .caixa2{
+
+        display: inline-block;
+
+        
+        }
+
+        .DiasDeFuncionamento{
+
+            width: 350px;
+            display: inline-block;
+        }
+
+.check{
 
 
+display: inline-block;
+}
+        
+.check2{
+
+    display: inline-block;
+}
+
+.check3{
+
+    display: inline-block;
+}
+
+.check4{
+    display: inline-block
+}
+.check5{
+
+
+    display: inline-block;
+    }
+            
+    .check6{
+    
+        display: inline-block;
+    }
+    
+    .check7{
+        display: inline-block
+    }
 
 }
